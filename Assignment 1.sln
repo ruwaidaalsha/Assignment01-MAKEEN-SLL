@@ -1,37 +1,333 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigment 1", "Assignment 1\Assigment 1.csproj", "{E7D0AD72-957E-4F89-BDDE-7E042F65726B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigmentq4", "Assigment1\Assigmentq4.csproj", "{BE368C5E-5BF3-4CE4-8987-937C469A599C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssQ10", "AssQ10\AssQ10.csproj", "{25FF4D00-0D23-4363-BD66-16704B499DED}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7D0AD72-957E-4F89-BDDE-7E042F65726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7D0AD72-957E-4F89-BDDE-7E042F65726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7D0AD72-957E-4F89-BDDE-7E042F65726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7D0AD72-957E-4F89-BDDE-7E042F65726B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BE368C5E-5BF3-4CE4-8987-937C469A599C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE368C5E-5BF3-4CE4-8987-937C469A599C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE368C5E-5BF3-4CE4-8987-937C469A599C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE368C5E-5BF3-4CE4-8987-937C469A599C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25FF4D00-0D23-4363-BD66-16704B499DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25FF4D00-0D23-4363-BD66-16704B499DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25FF4D00-0D23-4363-BD66-16704B499DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25FF4D00-0D23-4363-BD66-16704B499DED}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CEB71E57-9632-4AEB-8FC7-814E66706C4C}
-	EndGlobalSection
-EndGlobal
+//Q1
+//namespace Assignment_1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine(" write numbers from 1 - 10:");
+//            int number = int.Parse(Console.ReadLine());
+//            if (number < 1 || number > 10)
+//            {
+//                Console.WriteLine("wrong number");
+//            }
+//            if (number % 2 == 0)
+//            {
+//                Console.WriteLine($"{number} even number");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} odd number");
+//            }
+
+
+//        }
+//    }
+//}
+
+//--------------------------------------------------------------------------------------
+//Q2    
+
+//using System.Threading.Channels;
+
+//namespace Assigment1
+
+//{
+//    internal class Assignmentanswer
+//    {
+
+//        static void Main(string[] args)
+//        {
+//            int a = 0;
+//            int b = 1;
+//            Console.WriteLine($"{a}");
+//            Console.WriteLine($"{b}");
+
+//            for (int i = 0; i <= 15; i++)
+//            {
+
+//                i = a + b;
+//                Console.WriteLine(i);
+//                a = b;
+//                b = i;
+
+//            }
+//        }
+
+//    }
+//}
+
+
+//--------------------------------------------------------------------------------------
+//Q3
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            for (int i = 1; i <= 10; i++)
+//            {
+//                Math.Pow(2, i); 
+//                Console.WriteLine($" {Math.Pow(2, i)}");
+
+//            }
+
+
+
+
+//        }
+//    }
+//}
+
+
+//--------------------------------------------------------------------------------------
+
+//Q4
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer 
+//    {
+//        static void Main(string[] args)
+//        {
+
+//            int[] numbers = { 12, 45, 6, 88, 31 };
+
+//            int large = numbers[0];
+
+
+//            foreach (int num in numbers)
+//            {
+//                if (num > large)
+//                    large = num;
+//            }
+
+
+//            Console.WriteLine("largest array:  = " + large);
+
+
+
+//        }
+
+//    }
+//}
+
+//--------------------------------------------------------------------------------------
+//Q5
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            int size = (5);
+
+//            for (int i = 1; i <= 5; i++)
+//            {
+//                string space = new string(' ', size - i);
+//                Console.WriteLine("*****");
+
+//            }
+//        }
+
+//    }
+//}
+//---------------------------------------------------------------------------
+//Q6
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Enter Number:");
+//            int num= int.Parse(Console.ReadLine());
+
+//            if (num <= 1 )
+//            {
+
+//            }
+
+
+//            }
+
+
+
+//        }
+
+//    }
+//اكميليها 
+
+
+//--------------------------------------------------------------------------------------
+//Q7    
+
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Enter Number:"); 
+//            int number = int.Parse(Console.ReadLine());  
+
+//            int sum=1;  
+
+//            for (int i = 0; i <= number; i++) 
+//            { 
+//                if(number > i) 
+//                { 
+//                int d = number % 10; 
+
+//                    sum = sum + d;
+
+//                    number = number / 10;
+
+
+//                }
+//            }
+//            Console.WriteLine(sum);
+//        }
+
+//    }
+//}
+
+//------------------------------------------------------------------------------
+
+//Q8
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            string word = "Apple";
+//            Console.WriteLine(word);
+
+//            word.Length.ToString();
+
+//            for (int i = word.Length - 1; i >= 0; i--)
+//            {
+//                Console.Write(word[i]);
+//            }
+
+
+//        }
+//    }
+//}
+
+//---------------------------------------------------------------------------
+//Q9
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Enter word:");
+//            string word = Console.ReadLine();
+
+//            for (int i = 0; i < word.Length; i++)
+//            {
+//                if (word[i] == 'a' || word[i] == 'e' || word[i] == 'i' || word[i] == 'o' || word[i] == 'u' ||
+//                    word[i] == 'A' || word[i] == 'E' || word[i] == 'I' || word[i] == 'O' || word[i] == 'U')
+//                {
+//                    Console.WriteLine($"{word[i]} is vowel");
+//                }
+//                else
+//                {
+//                    Console.WriteLine($"{word[i]} is consonant");
+//                }
+//            }
+
+//        }
+//    }
+//}
+
+
+//------------------------------------------------------------------------------
+//Q10
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            int sum = 0;
+
+//            for (int i = 1; i <= 100; i++)
+//            {
+//                if (i % 2 == 0)
+//                {
+//                    sum = sum + i;
+
+//                }
+//            }
+
+//            Console.WriteLine($"The sum of all even numbers from 1 to 100 is : {sum}");
+
+
+
+//        }
+//    }
+//}
+
+//------------------------------------------------------------------------------
+//Q11
+//namespace Assigment1
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+
+//            int number = int.Parse(Console.ReadLine());
+//            int fact = 1;
+
+//            for (int i = 1; i <= number; i++)
+//            {
+//                fact = fact * i;
+//            }
+
+//            Console.WriteLine(fact);
+
+
+//        }
+//    }
+//}
+
+
+
+//--------------------------------------------------------------------------------------
+//Q12
+//using System.Collections;
+//using System.Collections.Immutable;
+
+//namespace AssQ10
+//{
+//    internal class Assignmentanswer
+//    {
+//        static void Main(string[] args)
+//        {
+//            int[] numbers = { 2, 4,8,3,1,5,9 };
+
+//            Array.Sort(numbers);
+
+//            foreach (int num in numbers)
+
+//            {
+
+//                Console.WriteLine(" " + num);
+//            }
+
+
+           
+//        }
+
+
+//    }
+//}
+
+
+
+
