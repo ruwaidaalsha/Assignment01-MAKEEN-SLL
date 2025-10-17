@@ -1,2 +1,2 @@
 # Assignment01-MAKEEN-SLL
-ONLY SOLVE 1,4,10
+Solved All
